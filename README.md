@@ -9,17 +9,17 @@ Importing sklearn for different models and a different package for xgboost.
 We import dataset with a dataframe - 284807 rows and 31 columns
 - _Null Values_: There were no null values 
 - _Class Distribution_: Distributing fraud and legitimate transaction numbers
-             0: Real - 284315  (99.827251%)
-             1: Fraud - 492    (0.172749%)
+             **0: Real - 284315  (99.827251%)**
+             **1: Fraud - 492    (0.172749%)**
 - _Checking correlation_ with each 
              positive - positively corelated
              negative - negatively corelated
 - We use function of pandas : _TimeDelta_
              It represent a duration i.e. difference between two times 
              Therefore, we add three columns 
-                       1. df ['Time_day']
-                       2. df ['Time_hour']
-                       3. df ['Time_min']
+                       1. **df ['Time_day']**
+                       2. **df ['Time_hour']**
+                       3. **df ['Time_min']**
               Then, we drop the original Time column because its derivations are already considered.
               We observe that, column df['Time_day'] and ['Time_min'] do not have sufficient values.
               Therefore, we drop the above two columns and only consider the column ['Time_hour']
