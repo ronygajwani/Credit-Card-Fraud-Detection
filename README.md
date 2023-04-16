@@ -6,7 +6,7 @@ Importing numpy and pandas libraries for data analysis.Importing matplotlib, sea
 Importing sklearn for different models and a different package for xgboost.<br>
 
 # Exploratory Data Analysis (EDA)
-We import dataset with a dataframe - 284807 rows and 31 columns
+We import dataset with a dataframe - 284807 rows and 31 columns<br>
 - _Null Values_: There were no null values 
 - _Class Distribution_: Distributing fraud and legitimate transaction numbers
              **0: Real - 284315  (99.827251%)**
