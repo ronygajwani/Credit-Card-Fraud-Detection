@@ -12,7 +12,7 @@ We import dataset with a dataframe - 284807 rows and 31 columns<br>
 - **_Class Distribution_**: Distributing fraud and legitimate transaction numbers
             _ 0: Real - 284315  (99.827251%)_ <br>
              _1: Fraud - 492    (0.172749%) _<br>
-- **_Checking correlation_ **with each 
+- **_Checking correlation_ ** with each 
              positive - positively corelated 
              negative - negatively corelated
 - We use function of pandas : _TimeDelta_
