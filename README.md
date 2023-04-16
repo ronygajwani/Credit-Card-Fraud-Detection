@@ -2,8 +2,9 @@
 Analysis of different machine learning algorithms for credit card fraud detection
 
 # Importing Dependencies 
-Importing numpy and pandas libraries for data analysis.Importing matplotlib, seaborn libraries for data visualisation and numerical extensions.<br>
-Importing sklearn for different models and a different package for xgboost.<br>
+Importing **numpy** and **pandas** libraries for data analysis.<br>
+Importing **matplotlib, seaborn libraries** for data visualisation and numerical extensions.<br>
+Importing **sklearn** for different models and a different package for xgboost.<br>
 
 # Exploratory Data Analysis (EDA)
 We import dataset with a dataframe - 284807 rows and 31 columns<br>
